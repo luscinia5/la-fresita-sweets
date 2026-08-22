@@ -1,0 +1,348 @@
+:root{
+    --accent-color1: #411415;
+    --low-opacity-accent-color-1: #411415b3;
+    --accent-color2: #FFA8AF;
+    --accent-color3: #FD417B;
+    --bg-color: floralwhite;
+    --main-text-color: floralwhite;
+    --dropdown-hover-color: #d76871;
+    --low-opacity-dropdown-hover-color: #e25e67d9;
+}
+
+html, body{
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    background-color: var(--bg-color);
+}
+
+/* CLASSES */
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.center-container{
+    display: flex;
+    justify-content: center;
+}
+
+.text-container{
+    background-color: var(--accent-color1);
+    padding: 1.5em;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+}
+
+.dropdown{
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.dropdown button {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.dropdown a {
+    display: block;
+    text-decoration: none;
+    color: var(--accent-color1);
+    padding: 10px 15px;
+    text-align: center;
+    padding: 20px 12px;
+}
+
+.dropdown .dropdown-options {
+    display: none;
+    background-color: var(--accent-color2);
+    position: absolute;
+    box-shadow: 3px 4px 5px var(--low-opacity-accent-color-1);
+}
+
+.dropdown #language-options{
+    width: 130%;
+    height: auto;
+    right: 0;
+    font-size: 1.5em;
+}
+
+.dropdown #nav-options{
+    width: 8em;
+    height: auto;
+    font-size: 1.5em;
+}
+
+.dropdown:hover .dropdown-options{
+    display: block;
+}
+
+.dropdown:hover button{
+    background-color: var(--low-opacity-dropdown-hover-color);
+}
+
+.dropdown a:hover{
+    background-color: var(--dropdown-hover-color);
+}
+
+button{
+    border: none;
+}
+
+.image-container{
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    max-width: 375px;
+    overflow: hidden;
+    margin: 3em 3em 3em 0 3em;
+}
+
+.filler-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.landscape-text-container{
+    width: 70vw;
+    translate: 0 -10%;
+    top: 40%;
+}
+
+.next-section-container{
+    background-color: transparent;
+}
+
+.hook-button{
+    width: min(40%, 10rem);
+    background-color: var(--accent-color2);
+    border: 0;
+    color: var(--main-text-color);
+    text-align: center;
+}
+
+.hook-button:hover{
+    background-color: var(--low-opacity-dropdown-hover-color);
+    cursor: pointer;
+}
+
+.icons{
+    width: 2em;
+    height: auto;
+}
+
+.new-column-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/* IDs */
+#hook-image-container{
+    height: fit-content;
+    width: 100%;
+    background-color: var(--accent-color3);
+    box-shadow: 0 0 0 200px var(--accent-color3);
+    clip-path: inset(0 0 -200px 0);
+    position: relative;
+    z-index: 0;
+}
+
+#header-options{
+    background-color: var(--bg-color);
+    height: 125px;
+    width: 100%;
+    box-shadow: 0 0 5px 2px var(--low-opacity-accent-color-1);
+    position: relative;
+    z-index: 1;
+}
+
+#footer-style{
+    width: 100%;
+    height: auto;
+    background-color: var(--accent-color3);
+    position: relative;
+}
+
+#footer-button{
+    width: fit-content;
+    height: auto;
+    padding: 0 1em;
+    position: absolute;
+    translate: 0 -50%;
+}
+
+#social-media{
+    gap: .5em;
+}
+
+/* FONTS */
+.inter-header-text{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.8rem;
+    text-align: center;
+    color: var(--main-text-color);
+}
+
+.inter-box-text {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: var(--main-text-color);
+    line-height: 1.5;
+}
+
+.inter-h3-text{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.1rem;
+    text-align: center;
+    color: var(--main-text-color);
+    line-height: 3px;
+}
+
+.inter-h4-text{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: .9rem;
+    text-align: center;
+    color: var(--accent-color1);
+    line-height: .5em;
+}
+
+.inter-h1-text{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--accent-color1);
+}
+
+/* IMAGES */
+#attention-grabber-image{
+    height: auto;
+    width: 100%;
+}
+
+#dropdown-menu{
+    height: 75px;
+    width: auto;
+}
+
+#store-logo{
+    height: 115px;
+    width: auto;
+    position: relative;
+}
+
+#language-icon{
+    height: 50px;
+    width: auto;
+    margin: 12px;
+}
+
+#filler-image1{
+    height: auto;
+    width: 100%;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 750px), (orientation: landscape){
+
+    .column-container{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .horizontal-appearance{
+        background-color: var(--accent-color3);
+    }
+
+    #hook-image-container{
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .landscape-text-container{
+        height: auto;
+        width: 50%;
+        translate: none;
+        /* transform: translate(-10%, 0); */
+        margin: 0 2em;
+    }
+
+    .image-container{
+        width: 100%;
+        max-width: 475px;
+        overflow: hidden;
+    }
+
+    .filler-image{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        margin: 2em 2em;
+    }
+
+    .next-section-container{
+        justify-content: center;
+        gap: 1em;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    #attention-grabber-image{
+        height: 600px;
+        width: auto;
+    }
+    
+    #hook-image-container{
+        width: fit-content;
+    }
+
+    .landscape-text-container{
+        transform: none;
+        margin: 0 2em;
+    }
+
+    .inter-header-text{
+        font-size: 2rem;
+    }
+
+    .inter-box-text{
+        font-size: 1.2rem;
+    }
+
+    .next-section-container{
+        justify-content: center;
+        gap: 1em;
+    }
+}
