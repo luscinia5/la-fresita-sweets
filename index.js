@@ -1,19 +1,6 @@
-
-// LANGUAGE CHANGER CODE - that I apparently won't use, fml
-let langData = {
-    "languages": {
-        "en": {
-            "strings": {
-                "hook-header": "Ice Creams, Sweets, flavored waters"
-            }
-        }, "es": {
-            "strings": {
-                "hook-header": "¡Helados, Dulces, Aguas Frescas y Más!"
-            }
-        }, "ja": {
-            "strings": {
-                "hook-header": "アイスクリームやキャンディーやフレッシュジュースなど！"
-            }
-        }
-    }
-}
+// fetches the header that is in every html page of this website
+fetch('header.html')
+    .then(res => res.text())
+    .then(html => {
+        document.getElementById('nav-bar-header').innerHTML = html;
+    });

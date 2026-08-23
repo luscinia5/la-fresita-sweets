@@ -20,31 +20,9 @@
 
     <body>
         <!-- Header, Dropdown Menu, and Language Selector -->
-        <header>
-            <div class="container" id="header-options">
-                <div class="dropdown">
-                    <button>
-                        <img id="dropdown-menu" src="Images/dropdown-brown.svg" type="image/svg">
-                    </button>
-                    <div class="dropdown-options" id="nav-options">
-                        <a href="">Nuestro Menú</a>
-                        <a href="">Contáctanos</a>
-                        <a href="">Ubicación</a>
-                    </div>
-                </div>
-                <img id="store-logo" src="Images/fresita-logo.png" type="image/png">
-                <div class="dropdown" id="language-dropdown">
-                    <button>
-                        <img id="language-icon" src="Images/language-icon.svg" type="image/svg">
-                    </button>
-                    <div class="dropdown-options" id="language-options">
-                        <a href="">Español</a>
-                        <a href="">English</a>
-                        <!-- <a href="">日本語</a> -->
-                    </div>
-                </div>
-            </div>
-        </header>
+        <div id="nav-bar-header"></div>
+
+        <script src="index.js"></script>
 
         <!-- Website "Hook" -->
         <section>
@@ -63,9 +41,9 @@
                         ¡Esperamos verle pronto para endulzarle el día!
                         <!-- lmao, I don't know why this one is centered and the one above isn't -->
                     </p>
-                    <button class="container center-container hook-button">
+                    <a href="menu.html" class="center-container hook-button">
                         <h3>Ver Menú</h3>
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>
@@ -123,7 +101,7 @@
                     <p class="inter-box-text">
                         Elaboradas con fruta 100% natural, nuestras aguas frescas son
                         la compañía perfecta para calmar la sed. Disfruta de tus sabores
-                        favoritos como sandía, limón, mango, naranja... !y muchas más¡
+                        favoritos como sandía, limón, mango, naranja... ¡y muchas más!
                         Cada sorbo es pura frescura.
                     </p>
                 </div>

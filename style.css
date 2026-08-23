@@ -132,6 +132,8 @@ button{
     border: 0;
     color: var(--main-text-color);
     text-align: center;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
 }
 
 .hook-button:hover{
