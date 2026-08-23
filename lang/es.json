@@ -1,12 +1,25 @@
 {
     "hook": {
-        "title": "¡Helados, dulces, aguas frescas y más!",
-        "body1": [
-            "¡No solo somos una nevería! ¡Échele un vistazo a nuestro menú ",
-            "con más de 36 delicias! Estaremos a su servicio a la hora ",
-            "de ordenar"
-        ],
-        "body2": "¡Esperamos verle pronto para endulzarle el día!",
+        "title": "¡Helados, Dulces, Aguas Frescas y Más!",
+        "p1": "¡No solo somos una nevería! ¡Échale un vistazo a nuestro menú de más de 36 delicias! Estaremos a tu servicio a la hora de ordenar.",
+        "p2": "¡Esperamos verte pronto para endulzarte el día!",
         "menu": "Ver Menú"
+    },
+    "section1": {
+        "header": "Más Que Dulces",
+        "p1": "¡En la Fresita Sweets la magia va más allá de <em>sweets</em>! Descubra una irresistible variedad de sabores creados para refrescar cada uno de tus días de verano. Déjate consentir con nuestra cremosa especialidad de fresa, bañada en suave chocolate derretido, trozos de fresa fresca y el toque crujiente perfecto de una barra de granola."
+    },
+    "section2": {
+        "header": "¡Directo de Japón a tu Paladar! 🌸",
+        "p1": "Descubre el sabor de Aiko, una experiencia única, suave y deliciosa que ya se volvió el favorito de todos. Disponible en tres irresistibles sabores: fresa jugosa, mango tropical y durazno dulce. ¿Cuál vas a probar primero?"
+    },
+    "section3": {
+        "header": "El Toque Fresco y Natural Para tu Día",
+        "p1": "Elaboradas con fruta 100% natural, nuestras aguas frescas son la compañía perfecta para calmar la sed. Disfruta de tus sabores favoritos como sandía, limón, naranja... ¡y muchos más! Cada sorbo es pura frescura."
+    },
+    "footer": {
+        "h1": "¿Tienes un evento?",
+        "h2": "¡Ponte en contacto!",
+        "follow-us": "Síguenos en"
     }
 }

@@ -1,12 +1,26 @@
 {
     "hook": {
-        "title": "Ice cream, sweets, fresh waters & more!",
-        "body1": [
-            "We're not just an ice cream shop! Check out our menu ",
-            "with more than 36 desserts! We'll be at your service when ",
-            "you're ready to order"
-        ],
-        "body2": "We hope to see you soon to sweeten up your day!",
-        "menu": "See Menu"
+        "title": "Ice Cream, Sweets, Fresh Waters & More!",
+        "p1": "We're not just an ice cream shop! Take a loot at our menu featuring over 36 delicious treats! We're ready to serve you whenever you're ready to order.",
+        "p2": "We hope to see you soon to sweeten your day!",
+        "menu": "View Menu"
+    },
+    "section1": {
+        "header": "More Than Just Sweets!",
+        "p1": "At La Fresita Sweets, the magic goes way beyond ordinary treats! Discover an irresistible variety of flavors crafted to refresh every single summer day. Trea yourself to our creamy strawberry specialty, drizzled with rich melted chocolate, topped with fresh strawberry slices, and finished with the perfect crunch of a granola bar."
+    },
+    "section2": {
+        "header": "Straight from Japan to Your Taste Buds! 🌸",
+        "p1": "Discover the taste of Aiko, a unique, smooth, and delicious dessert that has already become everyone's favorite. Available in three irresistible flavors: juicy strawberry, tropical mango, and sweet peach. Which one will you try first?"
+    },
+    "section3": {
+        "header": "A Fresh & Natural Touch for Your Day",
+        "p1": "Made with 100% real fruit, our aguas frescas are the perfect thirst-quencher. Enjoy your favorite flavors like watermelon, lime, orange and many more! Every sip is pure refreshment."
+    },
+    "footer": {
+        "h1": "Hosting an event?",
+        "h2": "Contact us!",
+        "follow-us": "Follow us on"
     }
 }
+
