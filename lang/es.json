@@ -21,5 +21,9 @@
         "h1": "¿Tienes un evento?",
         "h2": "¡Ponte en contacto!",
         "follow-us": "Síguenos en"
+    },
+    "location": {
+        "header": "Dónde Encontrarnos",
+        "text-box-header": "Ubicados en:"
     }
 }

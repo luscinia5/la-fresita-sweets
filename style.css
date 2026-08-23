@@ -153,6 +153,22 @@ button{
     align-items: center;
 }
 
+.horizontal-appearance{
+    background-color: var(--accent-color3);
+}
+
+.location-container{
+    padding: 3em 0 5em 0;
+}
+
+.map-container iframe{
+    padding: 3em 0 0 0;
+    width: 70vw;
+    height: 50vh;
+    border: 0;
+    display: block;
+}
+
 
 /* IDs */
 #hook-image-container{
@@ -191,6 +207,10 @@ button{
 
 #social-media{
     gap: .5em;
+}
+
+#address{
+    text-decoration: none;
 }
 
 /* FONTS */
@@ -276,15 +296,19 @@ button{
 
 /* MEDIA QUERIES */
 
+/* for the fucking z-fold */
+@media (max-width: 400px){
+    .inter-header-text{
+        font-size: 7vw;
+    }
+}
+
+/* for tablets */
 @media (min-width: 750px), (orientation: landscape){
 
     .column-container{
         flex-direction: row;
         justify-content: center;
-    }
-
-    .horizontal-appearance{
-        background-color: var(--accent-color3);
     }
 
     #hook-image-container{
@@ -317,9 +341,24 @@ button{
         justify-content: center;
         gap: 1em;
     }
+
+    .map-container iframe{
+        padding: 0 0 0 2em;
+        width: 600px; 
+        height: 450px; 
+    }
+
+    .next-section-container{
+        margin: 0 5em 0 5em;
+    }
+
+    .location-container{
+        margin: 0 5em 0 5em;
+    }
 }
 
-@media (min-width: 1024px) {
+/* for computers */
+@media (min-width: 1024px) { 
 
     #attention-grabber-image{
         height: 600px;

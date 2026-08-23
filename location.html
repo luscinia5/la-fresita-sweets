@@ -25,5 +25,31 @@
         <script src="index.js"></script>
 
         <!-- Actual location page content will come later -->
+        <div class="center-container horizontal-appearance inter-header-text">
+            <h1 data-i18n="location.header"></h1>
+        </div>
+
+        <br>
+
+        <div class="container column-container location-container">
+            <div class="text-container inter-box-text">
+                <h2 data-i18n="location.text-box-header"></h2>
+                <!-- <p class="inter-box-text">7200 Elroy Rd, Del Valle, TX 78617 📍</p> -->
+                <a href="https://maps.app.goo.gl/R2vgtRKvznc9TL47A" 
+                id="address" class="inter-box-text">
+                    7200 Elroy Rd, Del Valle, TX 78617 📍
+                </a>
+            </div>
+
+            <div class="map-container">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d862.464346264862!2d-97.64182563037281!3d30.155493158036137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b1afc6dd95ef%3A0xd6a9360f7b2caf11!2sLa%20Fresita%20Sweets!5e0!3m2!1sen!2sus!4v1787515281735!5m2!1sen!2sus" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="strict-origin-when-cross-origin">
+            </iframe>
+            </div>
+        </div>
     </body>
 </html>

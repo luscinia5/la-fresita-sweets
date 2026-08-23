@@ -21,6 +21,9 @@
         "h1": "Hosting an event?",
         "h2": "Contact us!",
         "follow-us": "Follow us on"
+    },
+    "location": {
+        "header": "Where To Find Us",
+        "text-box-header": "Located at:"
     }
 }
-
