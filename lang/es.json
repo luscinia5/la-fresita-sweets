@@ -25,5 +25,20 @@
     "location": {
         "header": "Dónde Encontrarnos",
         "text-box-header": "Ubicados en:"
+    },
+    "socials": {
+        "header": "¡Síguenos en Redes Sociales!",
+        "p1": "Para enterarte de nuevos sabores, promociiones y eventos especiales, ¡síguenos en nuestras redes! No te pierdas ninguna de nustras dulces sorpresas."
+    },
+    "menu": {
+        "header": "Nuestro Menú"
+    },
+    "dropdown": {
+        "menu": "Ver Menú",
+        "location":"Ubicación"
+    },
+    "lmao": {
+        "header": "Bajo Construcción",
+        "p1": "Disculpe la molestia"
     }
 }

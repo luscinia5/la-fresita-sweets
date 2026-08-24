@@ -1,6 +1,7 @@
 {
     "[json]": { // enables word wrap only for json files in this project
-        "editor.wordWrap": "on"
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 100
     }
 
     // Having it like this enables word wrap for every file in this project

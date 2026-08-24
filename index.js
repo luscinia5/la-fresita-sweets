@@ -4,6 +4,7 @@ fetch('header.html')
     .then(html => {
         document.getElementById('nav-bar-header').innerHTML = html;
         applyLanguage(detectLanguage()); // translates header AND body
+        setupDropdownClose();
     });
 
 function detectLanguage() {
@@ -26,6 +27,30 @@ async function applyLanguage(lang) {
 
     document.documentElement.lang = lang;
     localStorage.setItem('lang', lang);
+}
+
+function setupDropdownClose() {
+    document.querySelectorAll('.dropdown').forEach(dropdown => {
+        const toggleButton = dropdown.querySelector('button');
+
+        // reopening: pressing the dropdown menu clears any stuck override
+        toggleButton.addEventListener('click', () => {
+            dropdown.classList.remove('force-closed');
+        });
+    });
+
+    document.querySelectorAll('.dropdown-options a').forEach(link => {
+        link.addEventListener('click', () => {
+            const dropdown = link.closest('.dropdown');
+            dropdown.classList.add('force-closed');
+
+            // remove the override once the mouse actually leaves
+            // so hovering works normally again next time
+            dropdown.addEventListener('mouseleave', () => {
+                dropdown.classList.remove('force-closed');
+            }, { once: true});
+        });
+    });
 }
 
 /* 

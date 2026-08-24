@@ -25,5 +25,20 @@
     "location": {
         "header": "Where To Find Us",
         "text-box-header": "Located at:"
+    },
+    "socials": {
+        "header": "Follow Us on Social Media!",
+        "p1": "To stay updated on new flavors, special promos, and events, follow us on our socials! Don´t miss out on any of our sweet surprises."
+    },
+    "menu": {
+        "header": "Our Menu"
+    },
+    "dropdown":{
+        "menu": "View Menu",
+        "location": "Location"
+    },
+    "lmao": {
+        "header": "Under Construction",
+        "p1": "Sorry for the inconvenience"
     }
 }
